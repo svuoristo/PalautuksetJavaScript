@@ -4,10 +4,10 @@ for (let i = 0; i < 6; i++) {
 }
 dogs.sort().reverse();
 const ul = document.createElement('ul');
-dogs.forEach(dog => {
+for (let dog of dogs) {
   const li = document.createElement('li');
   li.textContent = dog;
   ul.appendChild(li);
-});
+}
 
 document.querySelector('#here').appendChild(ul)

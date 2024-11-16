@@ -1,6 +1,6 @@
 const name = prompt("Your name:\n");
 
-number = Math.floor(Math.random() * 4) + 1
+input = Math.floor(Math.random() * 4) + 1
 let house = 'nothing'
 
 switch (number) {
