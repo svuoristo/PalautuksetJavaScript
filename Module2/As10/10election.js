@@ -40,5 +40,5 @@ console.log('The winner is ' + candidates[0]['name'] + ' with ' +
     candidates[0]['votes'] + ' votes.');
 
 candidates.forEach((candidate) => {
-  console.log(candidate["name"] + ': ' + candidate['votes'] + ' votes')
-})
+  console.log(candidate['name'] + ': ' + candidate['votes'] + ' votes');
+});
